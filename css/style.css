@@ -105,10 +105,7 @@ body {
   font-weight: 400;
   line-height: 32px;
 }
-.lock body {
-  overflow: hidden;
-  touch-action: none;
-}
+
 .wrapper {
   min-height: 100%;
   display: flex;
@@ -170,55 +167,6 @@ body {
   text-transform: uppercase;
 }
 
-/*
-.icon-menu {
-	display: none;
-	@media (max-width: $mobile) {
-		display: block;
-		position: relative;
-		width: rem(30);
-		height: rem(18);
-		cursor: pointer;
-		z-index: 5;
-		span,
-		&::before,
-		&::after {
-			content: "";
-			transition: all 0.3s ease 0s;
-			right: 0;
-			position: absolute;
-			width: 100%;
-			height: rem(2);
-			background-color: #000;
-		}
-		&::before {
-			top: 0;
-		}
-		&::after {
-			bottom: 0;
-		}
-		span {
-			top: calc(50% - rem(1));
-		}
-		.menu-open & {
-			span {
-				width: 0;
-			}
-			&::before,
-			&::after {
-			}
-			&::before {
-				top: calc(50% - rem(1));
-				transform: rotate(-45deg);
-			}
-			&::after {
-				bottom: calc(50% - rem(1));
-				transform: rotate(45deg);
-			}
-		}
-	}
-}
-*/
 .mainblock {
   position: relative;
   background-image: url(../img/gradient.png);
@@ -474,7 +422,14 @@ body {
     padding: 48px 0px;
   }
   .info-main__content {
-    font-size: 14px;
+    font-size: 16px;
     flex: 0 1 100%;
+  }
+  .info-main__left,
+  .info-main__benefit {
+    margin-right: 10px;
+  }
+  .info-main {
+    margin-bottom: 35px;
   }
 }
