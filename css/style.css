@@ -150,6 +150,7 @@ body {
 }
 
 .arrow-button {
+  padding-top: 6px;
   cursor: pointer;
   width: 64px;
   height: 64px;
@@ -438,7 +439,7 @@ body {
   position: absolute;
   width: 1140px;
   height: 2px;
-  border: 1px solid;
+  background: linear-gradient(105.94deg, #0015B1 16.55%, #C302D5 126.32%);
   opacity: 0.2;
 }
 
@@ -822,6 +823,9 @@ body {
   .media {
     margin-left: 20px;
   }
+  .media__items {
+    margin: 0;
+  }
   .media__text {
     font-size: 18px;
     line-height: 28px;
@@ -892,20 +896,16 @@ body {
   }
   .item-program {
     padding: 15px;
-    margin-bottom: 15px;
   }
   .program__item_btn {
     margin-left: 15px;
-  }
-  .program__items {
-    display: block;
   }
   .media__item {
     flex: 0 0 150px;
     padding: 0px 6px;
   }
   .media__plus {
-    margin-left: 0px;
+    margin-left: 52px;
   }
   .footer__container {
     padding: 0px 15px;
